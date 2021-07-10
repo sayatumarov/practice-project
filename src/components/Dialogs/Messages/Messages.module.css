@@ -94,6 +94,10 @@
   left: 50%;
   transform: translate(-50%);
 }
+.MessagesBlock .send button {
+  background: none;
+  border-width: 0;
+}
 .MessagesBlock .send img:first-child {
   width: 30px;
 }
