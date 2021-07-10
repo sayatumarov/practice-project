@@ -15,6 +15,10 @@
     padding-left: 0;
     position: fixed;
   }
+  .NavList a{
+    color: white;
+    text-decoration: none;
+  }
   .NavList li{
     height: 30px;
     }

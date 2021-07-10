@@ -6,6 +6,7 @@
     flex-direction: row;
     max-height: 70px;
     position: fixed;
+    z-index: 100;
 }
 .header img{
     padding: 5px 0 5px 0;

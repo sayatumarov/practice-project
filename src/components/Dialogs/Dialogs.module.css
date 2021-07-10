@@ -1,0 +1,87 @@
+a{
+    text-decoration: none;
+}
+
+.dialogsBlock{
+    background: #156759;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+    border-radius: 12px;
+    height: min-content;
+    position: relative;
+    margin-top: 90px;
+}
+.dialogsBlock .search{
+    margin-top: 16px;
+    width: 92.8%;
+    margin-left: 3.4%;
+}
+.dialogsBlock .search input{
+    background: #4E8F7C;
+    border-radius: 5px;
+    width: 100%;
+    border-width: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.dialogsBlock .search button{
+    position: relative;
+    margin-left: -10%;
+    border-width: 0;
+    background: none;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+.dialogsBlock .dialogs{
+    display: flex;
+    flex-direction: column;
+    width: 93.3%;
+    margin-left: 3.4%;
+    margin-top: 6px;
+}
+.dialogsBlock .dialogs .dialog{
+    width: 92.46%;
+    background: #0B423D;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    padding: 20px 0 20px 0;
+    padding-left: 3.77%;
+    padding-right: 3.77%; 
+    margin-top: 5px;
+}
+.dialogsBlock .dialogs .dialog div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.dialogsBlock .dialogs .dialog div .text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    justify-content: start;
+}
+.dialogsBlock .dialogs .dialog div .text p{
+    font-family: Roboto;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin: 0;
+}
+.dialogsBlock .dialogs .dialog div .text span{
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ABABAB;
+    margin-top: 7px;
+}
+.date{
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ABABAB;
+}

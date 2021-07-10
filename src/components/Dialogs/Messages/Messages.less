@@ -1,0 +1,106 @@
+.center{
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+}
+
+
+.MessagesBlock{
+    margin-top: 70px;
+    background: #156759;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+    border-radius: 12px 12px 0px 0px;
+    height: 818px;
+    .user{
+        display: flex;
+        flex-direction: row;
+        background: #4E8F7C;
+        border-radius: 5px;
+        width: 92.8%;
+        .center;
+        justify-content: space-between;
+        margin-top: 16px;
+        p{
+            .center;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 20px;
+            line-height: 23px;
+            color: #FFFFFF;
+        }
+        img{
+            padding-right: 24px;
+            width: 40px;
+            height: 40px;
+            margin-top: 10px;
+        }
+    }
+    .messages{
+        height: 681px;
+        background: #0B423D;
+        border-radius: 9px;
+        width: 92.8%;
+        .center;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-top: 7px;
+        .message{
+            display: flex;
+            flex-direction: row;
+            margin-left: 28px;
+            img{
+                width: 40px;
+                height: 40px;
+            }
+            .textData{
+                width: 100%;
+                margin-left: 17px;
+                margin-right: 29px;
+                .text{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    width: 100%;
+                    p{
+                        font-family: Roboto;
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: #FFFFFF;
+                        margin-top: 12px;
+                    }
+                    span{
+                        font-family: Roboto;
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: #ABABAB;
+                        margin-top: 12px;
+                   }
+                }
+            }
+        }
+    }
+    .send{
+        display: flex;
+        flex-direction: row;
+        width: 92.8%;
+        margin-top: 10px;
+        .center;
+        img:first-child{
+            width: 30px;
+        }
+        img:nth-child(2){
+            margin-left: 16px;
+        }
+        input{
+            margin-left: 14px;
+            background: #4E8F7C;
+            border-radius: 22px;
+            border-width: 0;
+            width: 80%;
+        }
+        img:last-child{
+            margin-left: 11px;
+        }
+    }
+}

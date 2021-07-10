@@ -3,6 +3,7 @@
 }
 main{
   background-color: #4E8F7C;
+  height: 1300px;
   margin-top: 0;
   display: grid;
   grid-template-columns: 210px 656px;
